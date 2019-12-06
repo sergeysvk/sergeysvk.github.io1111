@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<html lang="ru">
+<title>To do list</title>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1,
+shrink-to-fit=no">
+  <link href="styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="SHORTCUT ICON" href="favicon.ico" type="image/x-icon">
+
+<body>
+  <main>
+    <div id="main" class="container">
+      <h1 class="application-title">To do list</h1>
+      <li id="done-count"></li>
+      <input autofocus type="text" aria-label="Enter a new todo item"
+        placeholder="Enter your target, task or something else..." class="todo-input">
+        <div>
+        <input type="checkbox" class="check-all"> Check all tasks </input>
+        <button class="delete-all">Delete All Done</button>
+        <button class="add-button">Add</button>
+</div>  
+
+      <ul id="holder" class="todo-list"></ul>
+      <nav aria-label="Page_navigation" class="navigation">
+        <ul class="pagination pagination-lg">
+          <div class="navigation-button"></div>
+        </ul>
+        <p id="page"></p>
+        <br />
+        <p id="info"></p>
+      </nav>
+      <div class="footer">
+        <div class="footer-centering">
+          <button class="only-done">Only done</button>
+          <button class="only-active">Only not completed</button>
+          <button class="show-all">All tasks</button>
+        </div>
+      </div>
+  </main>
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="script.js" async></script>
+</body>
+
+</html>
